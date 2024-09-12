@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marvel Universe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0 ;
+            background-color: #101010;
+            color:white;
+        }
+        header {
+            background-color:red;
+            color:white;
+            padding: 10px 0 ;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color:black;
+            padding: 10px ;
+        }
+        nav a {
+            color:white;
+            text-decoration: none;
+            margin:  15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {B
+            border-bottom: 2px solid #E62429;
+            padding-bottom: 5px;
+        }
+        .heroes, .movies {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .heroes img, .movies img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #E62429;
+        }
+        footer {
+            background-color: #202020;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 15px ;v
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome To The Marvel Universe</h1>
+    </header>
+    <nav>   
+        <a href="#heroes">Heroes</a>
+        <a href="#movies">Movies</a>
+        <a href="#about">About</a>
+    </nav>
+    <div class="content">
+        <section id="heroes" class="section">
+            <h2>Marvel Heroes</h2>
+            <div class="heroes">
+                <div>
+                    <img src="61nIxrLL8QL.webp" alt="Iron Man">
+                    <h3>Iron Man</h3>
+                </div>
+                <div>
+                    <img src="wp6388501.webp" alt="Captain America">
+                    <h3>Captain America</h3>
+                </div>
+                <div>
+                    <img src="BB-SpecialOD-72x48-SJ-v2-lg.webp" alt="Black Widow">
+                    <h3>Black Widow</h3>
+                </div>
+            </div>
+        </section>
+        <section id="movies" class="section">
+            <h2>Marvel Movies</h2>
+            <div class="movies">
+                <div>
+                    <img src="Avengers-Endgame-Official-Movie-Poster-295-Vintage-Movie-Poster-Original-1-Sheet-27x41.webp" alt="Avengers: Endgame">
+                    <h3>Avengers: Endgame</h3>
+                </div>
+                <div>
+                    <img src="815IBWT+WeL.webp" alt="Spider-Man: No Way Home">
+                    <h3>Spider-Man: No Way Home</h3>
+                </div>
+                <div>
+                    <img src="black-panther-wakanda-forever-poster.webp" alt="Black Panther">
+                    <h3>Black Panther</h3>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="section">
+            <h2>About Marvel</h2>
+            <p>Marvel Comics is an American media and entertainment company best known for its comic books and superhero characters, including Spider-Man, Iron Man, Captain America, and many others. Founded in 1939, Marvel has grown into one of the most influential forces in the entertainment industry, producing blockbuster films, TV shows, and more.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Marvel Universe | All rights reserved.</p>
+    </footer>
+</body>
+</html>
